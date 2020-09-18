@@ -2,14 +2,13 @@
 Helper files and libraries used for simulations
 
 ## Usage
-
-### Step 1 - Getting to know insilico
-Peruse README.md in https://github.com/CollinsAssisi/insilico.
-I have included in each subfolder, a seperate insilico folder with all the header files necessary for running the simulations.
-Each folder is self-sufficient as a result.
+The code in this repository uses a C++ library (insilico) to simulate single and networks of conductance based neurons. To run the simulations follow the steps listed below.
+### Step 1 - Download insilico
+See README.md in https://github.com/CollinsAssisi/insilico for installing this library
+Each subfolder in this repository contains a seperate insilico folder with all the header files necessary for running the simulations.
 
 ### Step 2 - Interfacing python with insilico
-I have used python and bash in linux to generate the helper files (nsets-holds neuron paramters, ssets-holds synapse parameters) required for insilico and to compile and run the simulations.
+Python and bash in linux are used to generate the helper files (files with suffix .nsets holds neuron parameters, files with suffix .ssets holds synapse parameters) required for insilico and to compile and run the simulations. 
 
 ### Step 2a
 Follow the notebook How_To_Neuron to get a sense of how to use insilico + python to run a simulation of a single neuron
