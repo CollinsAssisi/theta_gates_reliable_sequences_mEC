@@ -1,6 +1,5 @@
 # theta_gates_reliable_sequences_mEC
-Helper files and libraries used for simulations
-
+Code in this repository accompanies the paper 'Theta oscillations gate the transmission of reliable sequences in the medial entorhinal cortex' by Arun Neru and Collins Assisi
 ## Usage
 The code in this repository uses a C++ library (insilico) to simulate single and networks of conductance based neurons. To run the simulations follow the steps listed below.
 ### Step 1 - Download insilico
